@@ -2,14 +2,14 @@
 
 Bu proje, Apriori Algoritması kullanarak market alışveriş verilerinden ürünler arasındaki gizli ilişkileri bulmayı amaçlamaktadır. Algoritma, sıkça birlikte satın alınan ürün kümelerini belirler ve bu bilgiler, pazarlama stratejileri geliştirmek veya müşterilere öneriler sunmak için kullanılabilir.
 
-**Proje Özeti**
+# **Proje Özeti** 
 
 + Veri Seti: Market alışverişlerinden elde edilen işlem (transaction) verileri.
 + Apriori Algoritması: En sık ürün kümelerini ve bu kümeler arasındaki birliktelik kurallarını (support, confidence, lift) çıkarır.
 + Görselleştirme: Ürünler arasındaki ilişkiler ve birliktelik kuralları çeşitli grafiklerle görselleştirilmiştir (bar grafikleri, ağ grafiği, ısı haritası).
 + Ürün Öneri Sistemi: Belirli bir ürünü satın alan müşterilere önerilecek diğer ürünleri sunan bir sistem geliştirilmiştir.
 
-**Adım Adım Uygulama**
+# Adım Adım Uygulama 
 
 1. Veri Hazırlama:
 
@@ -34,7 +34,7 @@ Görselleştirme:
 + Satın alınan bir ürüne göre, kullanıcıya önerilecek ürünleri listeleyen bir fonksiyon.
 
 
-**Gereksinimler**
+# Gereksinimler
 + Python 3.x
 + Pandas
 + Mlxtend
