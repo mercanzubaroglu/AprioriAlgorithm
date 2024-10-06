@@ -11,25 +11,26 @@ Bu proje, Apriori Algoritması kullanarak market alışveriş verilerinden ürü
 
 # Adım Adım Uygulama 
 
-1. Veri Hazırlama:
+**1. Veri Hazırlama:**
 
 + Veriler NaN değerlerinden arındırılmış ve one-hot encoding ile işlenmiştir.
 
-2. Sık Ürün Kümeleri:
+**2. Sık Ürün Kümeleri:**
 
 + Apriori algoritmasıyla minimum %5 destek eşiğine sahip sık ürün kümeleri bulunmuştur.
 
-3. Birliktelik Kuralları:
+**3. Birliktelik Kuralları:**
 
 +  Ürünler arasındaki ilişkiler, lift ve confidence gibi metriklerle analiz edilmiştir.
-Görselleştirme:
+  
+**4 .Görselleştirme:**
 
 + En sık ürün kümeleri: Destek oranlarına göre bar grafikleri.
 + Ürün ilişkileri ağı: NetworkX ile ürünler arasındaki ilişkiler görselleştirilmiştir.
 + Isı haritası: Ürünler arası güven oranları ısı haritasıyla sunulmuştur.
 + Kelime bulutu: En popüler ürün kümeleri kelime bulutu ile görselleştirilmiştir.
 
-5. Öneri Sistemi:
+**5. Öneri Sistemi:**
 
 + Satın alınan bir ürüne göre, kullanıcıya önerilecek ürünleri listeleyen bir fonksiyon.
 
